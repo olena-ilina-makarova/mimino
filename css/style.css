@@ -1,115 +1,128 @@
-
 :root {
-/* Усі заголовки на чорному фоні і підзаголовки, кнопки, а також тексти і review*/
---title-white: #F6F6F6;
-/* Підзаголовок у хедері на чорному фоні, підзаголовки у модальних вікнах та грамування у меню*/
---subtitle-white: #D8D7D7;
-/* Текст меню ресторана на чорному фоні */
---small-text-white: rgba(216, 215, 215, 0.5);
+  /* Усі заголовки на чорному фоні і підзаголовки, кнопки, а також тексти і review*/
+  --title-white: #f6f6f6;
+  /* Підзаголовок у хедері на чорному фоні, підзаголовки у модальних вікнах та грамування у меню*/
+  --subtitle-white: #d8d7d7;
+  /* Текст меню ресторана на чорному фоні */
+  --small-text-white: rgba(216, 215, 215, 0.5);
   /* На білому фоні усі тексти */
---title-black: #121212;
+  --title-black: #121212;
   /* Маленькі заголовки на мейні */
---small-title-black: #484848;
+  --small-title-black: #484848;
 
---transition-property: color;
---transition-duration: 250ms;
+  --transition-property: color;
+  --transition-duration: 250ms;
 
   /* Підзаголовок review */
---review: #575757;
+  --review: #575757;
 }
 
 body {
-  background-color: #F7F7F7;
+  background-color: #f7f7f7;
   color: var(--title-black);
   font-family: "sans";
 }
 
 img {
-    display: block;
-    max-width: 100%;
-    height: auto;
-    width: 100%;
+  display: block;
+  max-width: 100%;
+  height: auto;
+  width: 100%;
 }
 
 .list {
-    list-style: none;
+  list-style: none;
 }
 
 .visually-hidden {
-    position: absolute;
-    white-space: nowrap;
-    width: 1px;
-    height: 1px;
-    overflow: hidden;
-    border: 0;
-    padding: 0;
-    clip: rect(0 0 0 0);
-    clip-path: inset(50%);
-    margin: -1px;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
 }
 
 .about {
-    width: 375px;
-    margin-left: auto;
-    margin-right: auto;
+  width: 375px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .container-about {
-    min-width: 335px;
-    margin-left: auto;
-    margin-right: auto;
+  min-width: 335px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .about-list {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 64px 20px;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0px 20px;
+  position: relative;
+}
+
+.about-item {
+  padding-bottom: 20px;
 }
 
 .pic {
-display: flex;
-width: 212px;
-height: 61px;
-left: 0px;
-top: 0px;
-background: #121212;
-box-shadow: 1px 7px 22px rgba(0, 0, 0, 0.1);
-border-radius: 6px;
-align-items: center;
+  display: flex;
+  width: 212px;
+  height: 61px;
+  left: 143px;
+  top: 420px;
+  background: #121212;
+  box-shadow: 1px 7px 22px rgba(0, 0, 0, 0.1);
+  border-radius: 6px;
+  align-items: center;
+  position: absolute;
 }
-
 
 .title-about {
-color: var(--small-title-black);
-font-weight: 400;
-font-size: 12px;
-line-height: 1.1;
-letter-spacing: 0.18em;
-text-transform: uppercase;
+  color: var(--small-title-black);
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.1;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
 }
 
-.subtitle-about {
-color: var(--title-black);
-font-weight: 500;
-font-size: 14px;
-line-height: 1.2;
-letter-spacing: -0.02em;
-text-transform: uppercase
-}
-
-.avatar-about {
-    width: 41px;
-    height: 41px;
-    border-radius: 50%;
-    margin-top: 10px;
-    margin-left: 15px;
-    margin-bottom: 10px;
-
-}
 .title-pic {
-    color: #ce1e1e;
+  color: var(--title-white);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1;
+  margin-left: 12px;
+  margin-top: 12px;
 }
 
 .subtitle-pic {
-    color: #ce1e1e;
+  color: var(--review);
+}
+
+.subti-pic {
+  color: var(--title-white);
+}
+
+.subtitle-about {
+  color: var(--title-black);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+}
+
+.avatar-about {
+  width: 41px;
+  height: 41px;
+  border-radius: 50%;
+  margin-top: 10px;
+  margin-left: 15px;
+  margin-bottom: 10px;
 }
