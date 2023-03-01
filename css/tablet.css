@@ -4,18 +4,20 @@
     background-color: aqua;
   }
 
-  .about-list {
-    width: 100%;
-    margin: 0px auto;
-  }
-
   .about-item {
-    width: 472px;
+    width: 482px;
   }
 
   .bath-room {
+    max-width: 404px;
     position: absolute;
     top: 209px;
     right: 0px;
+  }
+
+  .pic {
+    top: 176px;
+    left: 370px;
+    z-index: 1;
   }
 }
