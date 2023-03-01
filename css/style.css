@@ -53,15 +53,15 @@ img {
   margin-right: auto;
 }
 
-.container-about {
+/* .container-about {
   min-width: 335px;
   margin-left: auto;
   margin-right: auto;
-}
+} */
 
-.restaurant-hotel {
+/* .restaurant-hotel {
   margin-bottom: 60px;
-}
+} */
 
 .about-list {
   display: flex;
@@ -73,26 +73,26 @@ img {
   position: relative;
 }
 
-.about-lists {
+/* .about-lists {
   display: flex;
   flex-wrap: wrap;
   padding-left: 0px;
   padding-right: 0px;
   margin-top: 0px;
   margin-bottom: 0px;
-}
+} */
 
-.restaurant-hotel {
+/* .restaurant-hotel {
   position: relative;
-}
+} */
 
 .about-item {
   margin-bottom: 20px;
 }
 
-.about-items {
+/* .about-items {
   margin-bottom: 20px;
-}
+} */
 
 .pic {
   display: flex;
