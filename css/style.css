@@ -48,7 +48,7 @@ img {
 }
 
 .about {
-  max-width: 375px;
+  width: 375px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -70,6 +70,7 @@ img {
   padding-right: 0px;
   margin-top: 0px;
   margin-bottom: 0px;
+  position: relative;
 }
 
 .about-lists {
@@ -110,7 +111,7 @@ img {
   display: flex;
   width: 212px;
   height: 61px;
-  left: 123px;
+  left: 0px;
   top: 272px;
   background: #121212;
   box-shadow: 1px 7px 22px rgba(0, 0, 0, 0.1);
@@ -126,6 +127,7 @@ img {
   line-height: 1.1;
   letter-spacing: 0.18em;
   text-transform: uppercase;
+  margin-top: 32px;
   margin-bottom: 18px;
 }
 
@@ -134,20 +136,23 @@ img {
   font-weight: 500;
   font-size: 14px;
   line-height: 1;
-  margin-left: 12px;
-  margin-top: 12px;
+  margin-top: 0px;
+  margin-bottom: 7px;
+  /* margin-left: 12px;
+  margin-top: 12px; */
 }
 
 .subtitle-pic {
-  color: var(--review);
-}
-
-.subti-pic {
   color: var(--title-white);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 .avatar-card {
-  display: flex;
+  min-width: 78px;
 }
 
 .subtitle-about {
@@ -157,8 +162,7 @@ img {
   line-height: 1.2;
   letter-spacing: -0.02em;
   text-transform: uppercase;
-  margin-top: 0px;
-  margin-bottom: 0px;
+  margin-top: 0;
 }
 
 .subtitle-about-down {
@@ -178,6 +182,7 @@ img {
   margin-top: 10px;
   margin-left: 15px;
   margin-bottom: 10px;
+  margin-right: 12px;
 }
 
 .business-hotel {
