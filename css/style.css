@@ -192,3 +192,7 @@ img {
 .business-hotel {
   position: relative;
 }
+
+.hotel-title {
+  margin: auto;
+}
